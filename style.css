@@ -1,0 +1,31 @@
+body{
+    width: 100%;
+    top: 30%;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+   text-align: center;
+   background: url(images/1088609.jpg) no-repeat;
+   background-size: cover;
+   height:auto;
+    max-width:100%;
+    border:none;
+    display:block;
+  }
+  @media screen and (max-width:700px) {
+   body{
+   background: url(images/1088630.jpg) no-repeat;
+   background-size: cover;
+   height:auto;
+    max-width:100%;
+    border:none;
+    display:block;
+    text-shadow: 2px 2px 8px black;
+   }
+  }
+  .wrapper{
+    padding-top: 10%;
+  }
+  button{
+    padding: 1rem;
+  }
